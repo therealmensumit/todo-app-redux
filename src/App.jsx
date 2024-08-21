@@ -1,5 +1,6 @@
 import { TodoForm, Todos } from "./components";
 export const App = () => {
+  document.title = "Todo App";
   return (
     <>
       <div className="container py-16 grid gap-8 place-items-center">
